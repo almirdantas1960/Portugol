@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		real km, , km1, km_rod, temp, dia, dia1
+		real km, km1, km_rod, temp, dia, dia1
 		cadeia car 
 		km_rod = 0.2
 		temp = 9.0
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 381; 
+ * @POSICAO-CURSOR = 44; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
