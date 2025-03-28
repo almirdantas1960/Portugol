@@ -13,16 +13,17 @@ programa
 		leia(pass)
 		cont = inic
 		se(inic < final){
-			enquanto(cont <= final){
-			escreva(cont + " ")
-			cont = cont + pass	
-			}
-			senao (final >= final){
-				enquanto(cont <= inic )
+			enquanto(cont < final){
 				escreva(cont + " ")
-				cont = cont - pass
+				cont += pass
+			}
+		}senao{
+			enquanto(cont >= final){
+				escreva(cont + " ")
+				cont -= pass
+			}			
 		}
-		escreva("\n Acanou!")
+		escreva("\n Acabou!")	
 				
 	}
 }
@@ -31,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 371; 
+ * @POSICAO-CURSOR = 439; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
